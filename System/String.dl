@@ -1,0 +1,12 @@
+import System;
+
+class String : IEquatable<String>, IHashable
+{
+	public bool operator==(const String &other)
+	{
+	}
+
+	public uint32 getHashCode()
+	{
+	}
+}

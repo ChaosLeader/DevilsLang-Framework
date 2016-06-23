@@ -1,0 +1,23 @@
+import System;
+
+[Size=4]
+class Int32 : IConvertible, IEquatable<Int32>, IHashable
+{
+	static const Int32 MinValue = 0x80000000;
+	static const Int32 MaxValue = 0x7FFFFFFF;
+
+	public bool operator==(const Int32 &other)
+	{
+	}
+
+	public uint getHashCode()
+	{
+	}
+
+	public String toString()
+	{
+	}
+}
+
+using int = Int32;
+using int32 = Int32;

@@ -1,0 +1,22 @@
+import System;
+
+[Size=1]
+class UInt8 : IConvertible, IEquatable<UInt8>, IHashable
+{
+	static const UInt8 MinValue = 0x0;
+	static const UInt8 MaxValue = 0xFF;
+
+	public bool operator==(const UInt8 &other)
+	{
+	}
+
+	public uint32 getHashCode()
+	{
+	}
+
+	public String toString()
+	{
+	}
+}
+
+using uint8 = UInt8;

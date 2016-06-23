@@ -1,0 +1,8 @@
+import System;
+
+[Size=0]
+class Void
+{
+}
+
+using void = Void;

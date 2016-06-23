@@ -1,0 +1,19 @@
+import System;
+
+[Size=4]
+class Float : IConvertible, IEquatable<Float>, IHashable
+{
+	public bool operator==(const Float &other)
+	{
+	}
+
+	public uint getHashCode()
+	{
+	}
+
+	public String toString()
+	{
+	}
+}
+
+using float = Float;

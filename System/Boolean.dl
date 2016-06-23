@@ -1,0 +1,19 @@
+import System;
+
+[Size=1]
+class Boolean : IConvertible, IEquatable<Boolean>, IHashable
+{
+	public bool operator==(const Boolean &other)
+	{
+	}
+
+	public uint getHashCode()
+	{
+	}
+
+	public String toString()
+	{
+	}
+}
+
+using bool = Boolean;

@@ -1,0 +1,7 @@
+import System;
+import System.Collections;
+
+class HashMap<K : IEquatable<K> & IHashable, V> : IMap<V>
+{
+	public abstract IEnumerator<V> getEnumerator();
+}

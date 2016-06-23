@@ -1,0 +1,22 @@
+import System;
+
+[Size=2]
+class UInt16 : IConvertible, IEquatable<UInt16>, IHashable
+{
+	static const UInt16 MinValue = 0x0;
+	static const UInt16 MaxValue = 0xFFFF;
+
+	public bool operator==(const UInt16 &other)
+	{
+	}
+
+	public uint getHashCode()
+	{
+	}
+
+	public String toString()
+	{
+	}
+}
+
+using uint16 = UInt16;
